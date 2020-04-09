@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color:  hsl(230, 17%, 14%);
+    font-family: 'Inter';
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* header styling  */
+header{
+    font-weight: 700;
+}
+header h1{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 30px;
+   
+}
+header p {
+    color: hsl(228, 34%, 66%);
+    font-size: 10px;
+}
+.title > h1{
+    margin-bottom: 10px;
+}
+.title::after {
+   content: " "; 
+   display: block;
+   width: 100%;
+   height: .5px;
+   background-color:hsl(228, 34%, 66%);
+   position: relative;
+   top: 0;
+   left: 0;
+   margin-top: 20px;
+}
+
+/* toggle styles  */
+/* container for toggle  */
+.toggle-box{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+/* styles for first for of socials  */
+/* container for row  */
+.social-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+/* individual card styling  */
+.social-card{
+    background-color: hsl(228, 28%, 20%);
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    padding: 50px 0;
+    height: 300px;
+    margin-bottom: 25px;
+}
+/* styling for top border  */
+.facebook{
+    border-top: 3px solid hsl(195, 100%, 50%);
+}
+.twitter{
+    border-top: 3px solid hsl(203, 89%, 53%)
+}
+/* styling for social handle  */
+.handle{
+    margin-bottom: 15px;
+}
+.handle img{
+    height: 25px;
+    width: 25px;
+}
+.user{
+    color: hsl(228, 34%, 66%);
+    padding-bottom: 15px;
+    padding-left: 7px;
+    font-weight: 700;
+}
+.number{
+    font-size: 55px;
+    padding-bottom: 10px;
+}
+
+ .followers {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 28px;
+}
+.today{
+    font-weight: 700;
+    display: inline;
+}
+ .up > img{
+    padding-right: 7px;
+    padding-bottom: 3px;
+}
